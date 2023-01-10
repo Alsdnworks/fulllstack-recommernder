@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\SON\Desktop\개인공부\fullstack-api\venv
+set VIRTUAL_ENV=C:\Users\SON\Desktop\code_space\fullstack-api\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
