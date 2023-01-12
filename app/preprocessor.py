@@ -39,4 +39,4 @@ if __name__ == "__main__":
     result=add_rating(merged_df)
     result=add_poster(result)
     
-    result.to_csv('app/data/movies_with_poster.csv',index=None)
+    result.to_csv('app/data/movies_final.csv',index=None)

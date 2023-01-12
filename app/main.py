@@ -1,7 +1,7 @@
 from typing import List, Optional
 from fastapi import FastAPI, Query
-from resolver import random_items, random_genre_items
-from recommender import item_based_recommendation,user_based_recommendation
+from app.resolver import random_items, random_genre_items
+from app.recommender import item_based_recommendation,user_based_recommendation
 app = FastAPI()
 
 @app.get("/")
