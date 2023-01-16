@@ -20,6 +20,6 @@ Deploy:
     - fullstack_api
   script:
     - docker stop $(docker ps -aq) || true
-    - docker build -t ${DOCKER_IMAGE}
+    - docker build -t ${DOCKER_IMAGE} .
     - docker run -it -d -p 8080:80 --restart=unless-stopped ${DOCKER_IMAGE}
     
