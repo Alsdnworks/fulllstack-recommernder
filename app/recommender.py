@@ -5,8 +5,8 @@ from implicit.als import AlternatingLeastSquares
 import pickle
 
 saved_model_fname="model/finalized_model.sav"
-data_fname="app/data/ratings.csv"
-item_fname="app/data/movies_final.csv"
+data_fname="data/ratings.csv"
+item_fname="data/movies_final.csv"
 weight=10
 ratings_df=pd.read_csv(data_fname)
 ratings_df["userId"]=ratings_df["userId"].astype("category")
