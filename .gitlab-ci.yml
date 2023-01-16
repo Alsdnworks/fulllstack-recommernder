@@ -15,7 +15,7 @@ stages:
 Deploy:
   stage: deploy
   only:
-    - master
+    - deploy
   tags:
     - fullstack_api
   script:
